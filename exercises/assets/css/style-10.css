@@ -1,0 +1,138 @@
+/*  ============= WEB BROWSER RESETS ============ */
+* { margin: 0; padding: 0; border: none }
+*, *::before, *::after { box-sizing: border-box }
+html { height: 100%; font-size: 100%; font: inherit; vertical-align: baseline;
+scroll-behavior: smooth; scroll-padding-top: 20px }
+body { max-width: 1920px; line-height: 1.5; margin-left: auto; margin-right: auto; 
+min-height: 100vh; text-rendering: optimizeSpeed }  
+img { width: 100%; height: auto; display: block }
+h1, h2, h3, h4 { width: 100% }
+input, button, textarea, select { font: inherit }
+
+/* ================= ENDS ================ */
+
+body { 
+    background-color: #f8f5f3;
+    border-top: solid 20px #f820c0;   
+    border-bottom: solid 20px #f820c0
+}
+
+
+/* ==== Web page width ==== */
+
+/* Desktops */
+@media (min-width:768px) { body { padding: 4% 18% } }
+
+
+/* Mobiles */
+@media (max-width:767px) { body { padding: 12% 8% } }
+
+
+/* Headings */
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 64px;
+    letter-spacing: -1px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    font-weight: normal;
+}
+ 
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 24px;
+    color: #f820c0
+}
+ 
+h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 36px;
+    margin-top: 42px;
+    margin-bottom: 6px;
+}
+
+/* Text paragraphs */
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 1.7;
+    margin-bottom: 16px;
+}
+
+/* Images */
+
+img { margin-bottom: 20px }
+
+/* === Panel boxes === */
+
+
+.important-note-box { 
+    margin: 54px 0; /*  Only top and bottom margins have values */
+    padding: 16px; /* Same value on all four sides. */
+    border-style: solid; /* Same value on all four sides. */
+    border-width: 1px; /* All four borders have equal widths. */
+    border-color: #000; /* All four borders have same black color. */
+}
+
+/* Child sub-heading h3 inside panel boxes */
+.important-note-box h3 { 
+    font-family: 'Montserrat', sans-serif; /* Overrules h3 font-family value outside panel box. */
+    font-size: 20px; /* Overrules h3 font-size value outside panel box. */
+    margin-top: 0; /*  Overrules h3 margin-top value outside panel box. */
+    margin-bottom: 2px; /*  Overrules h3 margin-bottom value outside panel box. */
+    letter-spacing: 1px; /* New - just for h3 headings in panel boxes. */
+    text-transform: uppercase; /* New - just for h3 headings in panel boxes. */
+}
+
+/* Child paragraph p inside panel boxes */
+.important-note-box p { 
+    font-size: 18px; /* Overrules p font-size valueoutside panel box. */
+    line-height: 1.5; /* Overrules p line-height value outside panel box. */
+    margin-bottom: 0; /* Overrules p margin-bottom value outside panel box. */
+}
+
+.important-note-box.box-style-1 h3 {
+
+    color: limegreen;
+}
+
+.important-note-box.box-style-1 {
+
+    background-color: #E4F5E8;
+    padding: 16px;
+    border: solid 1px #1FA441;
+    box-shadow: 8px 10px 8px #888;
+
+}
+
+.important-note-box.box-style-2 h3 { color:#0F3460 }
+.important-note-box.box-style-2 p { color:#0F3460 }
+
+.important-note-box.box-style-2 { 
+    padding: 16px 0 16px 0;
+    border-width: 8px 0 4px 0; /* Only top and bottom borders have width values */
+    border-color: #0F3460;
+}
+
+.important-note-box.box-style-3 {
+
+    border-width: 0 0 0 20px;
+    border-color: #E94560;
+    background-color: #FFD1D1;
+}
+
+.important-note-box.box-style-4 h3 { color: #B8E8FC}
+.important-note-box.box-style-4 p {color: white}
+
+.important-note-box.box-style-4 {
+
+    background-color: #1f364d;
+    border-radius: 10px;
+    padding: 22px;
+}
