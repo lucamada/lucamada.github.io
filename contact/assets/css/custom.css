@@ -1,0 +1,80 @@
+
+body {font-family: 'Playfair Display', serif;}
+
+header.theme-light { background-color: #5b88a6;
+}
+header.hero-bg > .container-overlay { background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)); } 
+header.theme-light h1 { color: #B1D0E0 }
+header.theme-light h2 { color: white }
+nav.theme-light.menu-sticky.menu-on-scroll .nav-toggle .bar-1,
+nav.theme-light.menu-sticky.menu-on-scroll .nav-toggle .bar-2,
+nav.theme-light.menu-sticky.menu-on-scroll .nav-toggle .bar-3 { background-color: #867054 }
+nav.theme-light.menu-sticky.menu-on-scroll,
+nav.theme-light.menu-sticky.menu-on-scroll ul.links-wrapper.active { background-color: #B1D0E0 }
+nav.theme-light.menu-sticky.menu-on-scroll ul.links-wrapper li a:link,
+nav.theme-light.menu-sticky.menu-on-scroll ul.links-wrapper li a:visited { color: #00303F }
+nav.theme-light.menu-sticky.menu-on-scroll ul.links-wrapper li a:focus,
+nav.theme-light.menu-sticky.menu-on-scroll ul.links-wrapper li a:hover,
+nav.theme-light.menu-sticky.menu-on-scroll ul.links-wrapper li a:active { color: #867054 }
+nav.theme-light .nav-toggle .bar-1,
+nav.theme-light .nav-toggle .bar-2,
+nav.theme-light .nav-toggle .bar-3 { background-color: #00303F }
+nav.theme-light .nav-toggle { background-color: #B1D0E0 }
+@media (max-width: 767px) { nav.theme-light ul.links-wrapper.active li a:link,
+nav.theme-light ul.links-wrapper.active li a:visited { color: #00303F } }
+@media (max-width: 767px) { nav.theme-light ul.links-wrapper.active a#btn-cta:link,
+nav.theme-light ul.links-wrapper.active a#btn-cta:visited { background-color: #B1D0E0 } }
+nav.theme-light,
+nav.theme-light ul.links-wrapper.active { background-color: #B1D0E0 }
+nav.theme-light a#btn-cta:link,
+nav.theme-light a#btn-cta:visited { color: #00303F }
+nav.theme-light a#btn-cta:focus,
+nav.theme-light a#btn-cta:hover,
+nav.theme-light a#btn-cta:active { color: #867054 }
+nav.theme-light a#btn-cta:focus,
+nav.theme-light a#btn-cta:hover,
+nav.theme-light a#btn-cta:active { background-color: #B1D0E0 }
+nav.theme-light a#btn-cta:link,
+nav.theme-light a#btn-cta:visited { border-color: #00303F }
+nav.theme-light a#btn-cta:focus,
+nav.theme-light a#btn-cta:hover,
+nav.theme-light a#btn-cta:active { border-color: #867054 }
+nav.theme-light a#btn-cta {font-family: 'Playfair Display', serif;}
+
+.container-contact-form { background-color: #bbd1dd}
+#contact-form { background-color: #8db2c1 }
+#contact-form h2 { color: #00303F}
+#contact-form p { color: #295470 }
+#contact-form label { color: #00303F }
+#contact-form [type="text"] { background-color: white}
+#contact-form [type="email"] { background-color: white }
+#contact-form textarea { background-color:white}
+#contact-form #btn-submit { color: #00303F }
+#contact-form #btn-submit:focus { color: #867054 }
+#contact-form #btn-submit:hover { color: #867054 }
+#contact-form #btn-submit { background-color: #8db2c1 }
+#contact-form #btn-submit:focus { background-color: #bbd1dd }
+#contact-form #btn-submit:hover { background-color: #bbd1dd }
+#contact-form #btn-submit { border-color: #00303F }
+#contact-form #btn-submit:focus { border-color: #867054 }
+#contact-form #btn-submit:hover { border-color: #867054 }
+
+#contact-form #btn-submit {font-family: 'Playfair Display', serif;}
+
+footer.theme-dark p.privacy a:link, 
+footer.theme-dark p.privacy a:visited { color: white; text-decoration-color:white }
+
+
+footer.theme-dark p.privacy a:focus, 
+footer.theme-dark p.privacy a:hover, 
+footer.theme-dark p.privacy a:active { color: #bbd1dd; text-decoration-color: #bbd1dd }
+
+footer.theme-dark ul.footer-icons li a:link i, 
+footer.theme-dark ul.footer-icons li a:visited i { color: #00FFF6}
+
+footer.theme-dark ul.footer-icons li a:focus i, 
+footer.theme-dark ul.footer-icons li a:hover i, 
+footer.theme-dark ul.footer-icons li a:active i { color: #bbd1dd}
+
+footer.theme-dark { background-color: #00303F }
+footer.theme-dark h3 { color: white }

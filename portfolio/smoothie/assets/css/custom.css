@@ -11,18 +11,33 @@ input, button, textarea, select { font: inherit }
 
 /* ================= ENDS ================ */
 
+header h1 { font-size: calc(64px + (148 - 64) * (100vw - 320px) / (1920 - 320)); }
+header h2 { font-size: calc(32px + (64 - 32) * (100vw - 320px) / (1920 - 320)); }
+
+header h1, header h2 { letter-spacing: -1px }
+
+section > p.deckhead { font-size: calc(24px + (42 - 24) * ((100vw - 320px) / (1140 - 320))); }
+
+.cols-2-half .col-2 h2 {
+    font-size: calc(32px + (56 - 32) * ((100vw - 320px) / (1140 - 320)))
+}
+ 
+.cols-2-half .col-2 p {
+    font-size: calc(18px + (22 - 18) * ((100vw - 320px) / (1140 - 320)))
+}
+ 
+.cols-2-half .col-2 h2, .cols-2-half .col-2 p { letter-spacing: 1px }  
+
 
 body {font-family: 'Neucha', cursive;}
 
 .container-text h1 {
-
-    font-size: calc(60px + (132-60) * ((100vw - 320px)/(1600-320)));
     margin-bottom: 40px;
     letter-spacing: 2px;
 }
 
 .container-text h2 {
-    font-size: calc(32px + (64 - 32) * ((100vw - 320px) / ( 1600 - 320)));
+   
     letter-spacing: 1px;
 }
 
@@ -57,3 +72,29 @@ body {font-family: 'Neucha', cursive;}
 .section-selector-5 h2 { color: var(--orange-600) }
 
 
+.section-selector-6 input, .section-selector-6 button {
+    font: inherit;
+    border: 0;
+}
+.section-selector-6 input:focus, .section-selector-6 button:focus {
+    outline: none;
+}
+
+.section-selector-6 form {
+    display: flex;
+    grid-column: 2;
+    margin-left: 110px;
+    margin-right: 200px;
+}
+
+.section-selector-6 input {
+    flex-grow: 1;
+    padding: 0.5em 0.75em;
+    border: solid 1px #888;
+    margin-right: 12px;
+}
+
+.section-selector-6  button {
+    padding: 0.5em 0.75em;
+    background: #8fef9f;
+}

@@ -1,0 +1,90 @@
+
+body {font-family: 'Playfair Display', serif;}
+header.theme-light { background-color: #5b88a6;
+}
+header.hero-bg > .container-overlay { background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)); } 
+header.theme-light h1 { color: #B1D0E0 }
+header.theme-light h2 { color: white }
+nav.theme-light.menu-sticky.menu-on-scroll .nav-toggle .bar-1,
+nav.theme-light.menu-sticky.menu-on-scroll .nav-toggle .bar-2,
+nav.theme-light.menu-sticky.menu-on-scroll .nav-toggle .bar-3 { background-color: #867054 }
+nav.theme-light.menu-sticky.menu-on-scroll,
+nav.theme-light.menu-sticky.menu-on-scroll ul.links-wrapper.active { background-color: #B1D0E0 }
+nav.theme-light.menu-sticky.menu-on-scroll ul.links-wrapper li a:link,
+nav.theme-light.menu-sticky.menu-on-scroll ul.links-wrapper li a:visited { color: #00303F }
+nav.theme-light.menu-sticky.menu-on-scroll ul.links-wrapper li a:focus,
+nav.theme-light.menu-sticky.menu-on-scroll ul.links-wrapper li a:hover,
+nav.theme-light.menu-sticky.menu-on-scroll ul.links-wrapper li a:active { color: #867054 }
+nav.theme-light .nav-toggle .bar-1,
+nav.theme-light .nav-toggle .bar-2,
+nav.theme-light .nav-toggle .bar-3 { background-color: #00303F }
+nav.theme-light .nav-toggle { background-color: #B1D0E0 }
+@media (max-width: 767px) { nav.theme-light ul.links-wrapper.active li a:link,
+nav.theme-light ul.links-wrapper.active li a:visited { color: #00303F } }
+@media (max-width: 767px) { nav.theme-light ul.links-wrapper.active a#btn-cta:link,
+nav.theme-light ul.links-wrapper.active a#btn-cta:visited { background-color: #B1D0E0 } }
+nav.theme-light,
+nav.theme-light ul.links-wrapper.active { background-color: #B1D0E0 }
+nav.theme-light a#btn-cta:link,
+nav.theme-light a#btn-cta:visited { color: #00303F }
+nav.theme-light a#btn-cta:focus,
+nav.theme-light a#btn-cta:hover,
+nav.theme-light a#btn-cta:active { color: #867054 }
+nav.theme-light a#btn-cta:focus,
+nav.theme-light a#btn-cta:hover,
+nav.theme-light a#btn-cta:active { background-color: #B1D0E0 }
+nav.theme-light a#btn-cta:link,
+nav.theme-light a#btn-cta:visited { border-color: #00303F }
+nav.theme-light a#btn-cta:focus,
+nav.theme-light a#btn-cta:hover,
+nav.theme-light a#btn-cta:active { border-color: #867054 }
+nav.theme-light a#btn-cta {font-family: 'Playfair Display', serif;}
+
+
+
+.section-selector-1 div[class^='flex-cols-'] div[class^='col-'] figure { margin-top: 20px}
+.section-selector-1 { background-color: #bbd1dd }
+.section-selector-1 div[class^='flex-cols-'] div[class^='col-'] p { color: #295470 }
+.section-selector-1 div[class^='flex-cols-'] div[class^='col-'] li { color: #295470 }
+.section-selector-1 div[class^='flex-cols-'] div[class^='col-'] h3 { color: #1A374D }
+.section-selector-1 a.btn:link,
+.section-selector-1 a.btn:visited { color: #1A374D}
+
+.section-selector-1 a.btn:link,
+.section-selector-1 a.btn:visited { background-color: #bbd1dd }
+
+.section-selector-1 a.btn:focus,
+.section-selector-1 a.btn:hover,
+.section-selector-1 a.btn:active { background-color:#bbd1dd }
+
+.section-selector-1 a.btn:link,
+.section-selector-1 a.btn:visited { border-color: #00303F }
+
+.section-selector-1 a.btn:focus,
+.section-selector-1 a.btn:hover,
+.section-selector-1 a.btn:active { border-color: #867054 }
+
+.section-selector-1 a.btn:focus,
+.section-selector-1 a.btn:hover,
+.section-selector-1 a.btn:active { color: #867054 }
+
+.section-selector-1 div [class^='btn'] {font-family: 'Playfair Display', serif;}
+
+
+footer.theme-dark p.privacy a:link, 
+footer.theme-dark p.privacy a:visited { color: white; text-decoration-color:white }
+
+
+footer.theme-dark p.privacy a:focus, 
+footer.theme-dark p.privacy a:hover, 
+footer.theme-dark p.privacy a:active { color: #bbd1dd; text-decoration-color: #bbd1dd }
+
+footer.theme-dark ul.footer-icons li a:link i, 
+footer.theme-dark ul.footer-icons li a:visited i { color: #00FFF6}
+
+footer.theme-dark ul.footer-icons li a:focus i, 
+footer.theme-dark ul.footer-icons li a:hover i, 
+footer.theme-dark ul.footer-icons li a:active i { color: #bbd1dd}
+
+footer.theme-dark { background-color: #00303F }
+footer.theme-dark h3 { color: white }

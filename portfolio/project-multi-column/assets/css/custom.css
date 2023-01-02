@@ -48,7 +48,7 @@
     font-family: 'Inter', sans-serif;
     background-color: #73c9b7;
 }
-}
+
 
 .section-selector-4.w-1140px h2 {
     font-size: calc(22px + (42 - 22) * ((100vw - 320px) / (1140 - 320)));
